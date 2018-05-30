@@ -219,7 +219,7 @@ Enter &quot;2017/2018&quot; option in dropdown button.</p>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Wait 33 minutes, then click on any item placed in left panel (Dashboard, My tests, Create test, Students).<br />
+	<actions><![CDATA[<p>Wait 10&nbsp;minutes, then click on any item placed in left panel (Dashboard, My tests, Create test, Students).<br />
 <em><strong>(This test case is not necessary)</strong></em></p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Warning window &quot;You are not authorized to view this page&quot; will appear.</p>
