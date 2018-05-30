@@ -33,7 +33,7 @@
 <step>
 	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Enter&nbsp;&quot;Ruszinka&quot; into Last Name input.<br />
-Enter your real e-mail address into e-mail input.<br />
+Enter &quot;boris98nhl@gmail.com&quot; into e-mail input.<br />
 Enter &quot;2017/2018&quot; option in dropdown button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Message box &quot;Vyplňte toto pole&quot; will appear under &quot;First Name&quot; input.</p>
@@ -44,7 +44,7 @@ Enter &quot;2017/2018&quot; option in dropdown button.</p>
 <step>
 	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Enter&nbsp;&quot;Erik&quot; into First Name input.<br />
-Enter your real e-mail address into e-mail input.<br />
+Enter &quot;boris98nhl@gmail.com&quot; into e-mail input.<br />
 Enter &quot;2017/2018&quot; option in dropdown button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Message box &quot;Vyplňte toto pole&quot; will appear under &quot;Last Name&quot; input.</p>
@@ -68,7 +68,7 @@ Enter &quot;2017/2018&quot; option in dropdown button.</p>
 	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;Erik&quot; into First Name input.<br />
 Enter&nbsp;&quot;Ruszinka&quot; into Last Name input.<br />
-Enter your real e-mail address into e-mail input.</p>
+Enter &quot;boris98nhl@gmail.com&quot; into e-mail input.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Message box &quot;Vyberte položku zo zoznamu&quot; will appear under &quot;First year of study&quot; dropdown button.</p>
 ]]></expectedresults>
@@ -79,7 +79,7 @@ Enter your real e-mail address into e-mail input.</p>
 	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;Erik&quot; into First Name input.<br />
 Enter&nbsp;&quot;Ruszinka&quot; into Last Name input.<br />
-Enter your real e-mail address into e-mail input.<br />
+Enter &quot;boris98nhl@gmail.com&quot; into e-mail input.<br />
 Enter &quot;2017/2018&quot; option in dropdown button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>You will be redirected to login page. There will be message &quot;<span style="color:#27ae60">Student succesfully registered</span>&quot; under &quot;Password&quot; input.</p>
@@ -954,7 +954,7 @@ Boris Galick&yacute; and Erik Ruszinka.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>You will be redirected to &quot;Students&quot; page.<br />
 There will be displayed list of all&nbsp;students.<br />
-There will be only student &quot;Boris Galick&yacute;&quot;.</p>
+There will be only one student - Boris Galick&yacute;.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -963,7 +963,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Boris Galick&yacute;&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Profile page of Boris Galick&yacute; will be displayed.<br />
+	<expectedresults><![CDATA[<p>Profile page of student &quot;Boris Galick&yacute;&quot; will be displayed.<br />
 <span style="color:#e74c3c"><strong>{Description of profile page}</strong></span></p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
@@ -991,8 +991,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.<br />
-<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
+	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are two teachers in the screen. Roland Onofrej and John Doe.</p>
 ]]></expectedresults>
