@@ -951,7 +951,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 
 <testcase internalid="143" name="Login">
 	<node_order><![CDATA[1000]]></node_order>
-	<externalid><![CDATA[20]]></externalid>
+	<externalid><![CDATA[50]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check login in these cases:</p>
 
