@@ -949,7 +949,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 <node_order><![CDATA[2]]></node_order>
 <details><![CDATA[]]></details> 
 
-<testcase internalid="143" name="Login">
+<testcase internalid="253" name="Login">
 	<node_order><![CDATA[1000]]></node_order>
 	<externalid><![CDATA[50]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -975,7 +975,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;123&quot;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -984,7 +984,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;123&quot;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -993,7 +993,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;1234&quot;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
