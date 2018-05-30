@@ -948,4 +948,64 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 </testsuite></testsuite><testsuite id="15" name="Desktop Application" >
 <node_order><![CDATA[2]]></node_order>
 <details><![CDATA[]]></details> 
+
+<testcase internalid="143" name="Login">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check login in these cases:</p>
+
+<ol>
+	<li>Incorrect email with incorrect password</li>
+	<li>Any correct email with incorrect password</li>
+	<li>Incorrect email with any correct password</li>
+	<li>Correct email with correct password</li>
+</ol>
+]]></summary>
+	<preconditions><![CDATA[<p>Log in is successful in 4th case only.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;123&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;123&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;1234&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;1234&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login successful. Full screen main page will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
 </testsuite></testsuite>
