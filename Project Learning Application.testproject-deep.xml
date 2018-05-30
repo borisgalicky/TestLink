@@ -1085,7 +1085,7 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 <details><![CDATA[]]></details> 
 
 <testcase internalid="253" name="Login">
-	<node_order><![CDATA[1000]]></node_order>
+	<node_order><![CDATA[0]]></node_order>
 	<externalid><![CDATA[50]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check login in these cases:</p>
@@ -1108,36 +1108,252 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;123&quot;</p>
+	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;123&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;123&quot;</p>
+	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;123&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;1234&quot;</p>
+	<actions><![CDATA[<p>Enter email &quot;1234@test.sk&quot;, enter password &quot;1234&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>"Wrong email or password!" message will appear under input below.</p>
+	<expectedresults><![CDATA[<p>&quot;Wrong email or password!&quot; message will appear under input below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;1234&quot;</p>
+	<actions><![CDATA[<p>Enter email &quot;123@test.sk&quot;, enter password &quot;1234&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Login successful. Full screen main page will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="293" name="Show user profile">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[53]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Checking funcionality of show user profile</p>
+]]></summary>
+	<preconditions><![CDATA[<p>User profile will be shown properly</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on right top dropdown button marked as &quot;Johny Walker&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List with options will be shown.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;User Profile&quot; option from list.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User profile will be opened.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+<testsuite id="301" name="Take test" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="277" name="Choose test">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[51]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check funcionality of choosing a test</p>
+]]></summary>
+	<preconditions><![CDATA[<p>After choose test, you will be redirected to window with selected test</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on left dropdown button marked as &quot;Choose categories&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The list of categories will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Select &quot;HTML&quot; from categories.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The dropdown mark title will change to &quot;HTML&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on right dropdown button marked as &quot;Tests&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The list of HTML tests will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Big HTML test&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The test will open in another full screen window with opened first question.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="283" name="Test filling - Finish">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[52]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check funcionality of filling the test</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Test will be finished with all answered questions only</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on answer &quot;Bold text&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Answer &quot;Bold text&quot; will be selected.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The answered question in left top corner will be changed from red color to green and you will be redirected to &quot;Question 2&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Question 1&quot; tab&nbsp;on left top corner.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &quot;Question 1&quot; will appear with blue outline.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Italic text&quot; answer.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Answer will be changed from &quot;Bold text&quot; to &quot;Italic text&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 2&quot;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will not be not redirected to &quot;Question 3&quot;. There will be made no changes on the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click on any answer and click on&nbsp;&quot;Submit answer&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 3&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Select any answer and click on&nbsp;&quot;Submit answer&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Test will be completed and closed.<br />
+<strong><span style="color:#e74c3c">{something will appear}</span></strong></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
+<testcase internalid="297" name="Log out">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[56]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Checking funcionality of log out user</p>
+]]></summary>
+	<preconditions><![CDATA[<p>User will be logged out and application will be closed</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on right top dropdown button marked as &quot;Johny Walker&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List with options will be shown.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on option &quot;Log out&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User will be logged out and application will be closed.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
