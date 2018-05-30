@@ -651,7 +651,7 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 </steps>
 </testcase>
 
-<testcase internalid="119" name="Choose from existing questions - TO DO">
+<testcase internalid="119" name="Choose from existing questions">
 	<node_order><![CDATA[5]]></node_order>
 	<externalid><![CDATA[13]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -677,8 +677,60 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[]]></actions>
-	<expectedresults><![CDATA[]]></expectedresults>
+	<actions><![CDATA[<p>Click on the dropdown button and select test you want to import question from.<br />
+For example &quot;Java test&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button.<br />
+There&#39;s only one question - Sample question.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the grey&nbsp;button &quot;Close&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Dialog window will disappear and no question will be added to &quot;Exercise test&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on the blue button &quot;Choose from existing questions&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Dialog window &quot;Choose from existing questions&quot; will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on the dropdown button and select test you want to import question from.<br />
+For example &quot;Big HTML test&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>No question will appear below.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on the dropdown button and select test you want to import question from.<br />
+For example &quot;Java test&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button.<br />
+There&#39;s only one question - Sample question.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click on the green button &quot;Add&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Dialog window will disappear and added question will be displayed in the list of questions below.</p>
+]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 </steps>
