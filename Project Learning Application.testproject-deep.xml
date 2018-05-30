@@ -219,7 +219,8 @@ Enter &quot;2017/2018&quot; option in dropdown button.</p>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Wait <span style="color:#e74c3c"><strong>{time}</strong></span>, then click on any item placed in left panel (Dashboard, My tests, Create test, Students).</p>
+	<actions><![CDATA[<p>Wait 33 minutes, then click on any item placed in left panel (Dashboard, My tests, Create test, Students).<br />
+<em><strong>(This test case is not necessary)</strong></em></p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Warning window &quot;You are not authorized to view this page&quot; will appear.</p>
 ]]></expectedresults>
@@ -491,7 +492,7 @@ Check if creating of tests with simillar titles will not be permitted.</p>
 
 <step>
 	<step_number><![CDATA[6]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Choose category&quot; dropdown button again. Then choose Java option.</p>
+	<actions><![CDATA[<p>Click on &quot;Choose category&quot; dropdown button again. Then choose &quot;Java&quot; option.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Tests will be displayed.</p>
 ]]></expectedresults>
@@ -509,7 +510,7 @@ Check if creating of tests with simillar titles will not be permitted.</p>
 </steps>
 </testcase>
 
-<testcase internalid="138" name="Enable test">
+<testcase internalid="138" name="Enable test - Finish">
 	<node_order><![CDATA[3]]></node_order>
 	<externalid><![CDATA[18]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -528,7 +529,7 @@ Check if creating of tests with simillar titles will not be permitted.</p>
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Test will be allowed for students.<strong><span style="color:#e74c3c">{and something more}</span></strong></p>
+	<expectedresults><![CDATA[<p>Test will be allowed for students.<strong><span style="color:#e74c3c">{and something front-end effect}</span></strong></p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -676,7 +677,7 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 </steps>
 </testcase>
 
-<testcase internalid="119" name="Choose from existing questions">
+<testcase internalid="119" name="Choose from existing questions - TO DO">
 	<node_order><![CDATA[5]]></node_order>
 	<externalid><![CDATA[13]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -853,7 +854,7 @@ Boris Galick&yacute; and Erik Ruszinka.</p>
 </steps>
 </testcase>
 
-<testcase internalid="110" name="Show student details">
+<testcase internalid="110" name="Show student details - Finish">
 	<node_order><![CDATA[1002]]></node_order>
 	<externalid><![CDATA[12]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -895,25 +896,8 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 <node_order><![CDATA[6]]></node_order>
 <details><![CDATA[]]></details> 
 
-<testcase internalid="18" name="Register as teacher">
-	<node_order><![CDATA[1]]></node_order>
-	<externalid><![CDATA[2]]></externalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check functionality of registration of teacher&#39;s account.</p>
-]]></summary>
-	<preconditions><![CDATA[<p>Registration should be successful.</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-
-</testcase>
-
 <testcase internalid="129" name="Show teachers">
-	<node_order><![CDATA[1000]]></node_order>
+	<node_order><![CDATA[0]]></node_order>
 	<externalid><![CDATA[15]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying all of teachers.</p>
@@ -926,11 +910,21 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 	<status>1</status>
 	<is_open>1</is_open>
 	<active>1</active>
-
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.<br />
+<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are two teachers in the screen. Roland Onofrej and John Doe.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 
 <testcase internalid="131" name="Invite teacher">
-	<node_order><![CDATA[1001]]></node_order>
+	<node_order><![CDATA[1]]></node_order>
 	<externalid><![CDATA[16]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of inviting another teachers.</p>
@@ -939,6 +933,69 @@ There will be only student &quot;Boris Galick&yacute;&quot;.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.<br />
+<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are two teachers in the screen. Roland Onofrej and John Doe.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on the green button &quot;Invite teacher&quot; below.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will appear in&nbsp;the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the closing cross in the top right corner inside the alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will disappear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on the green button &quot;Invite teacher&quot; below.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will appear in&nbsp;the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Insert into &quot;E-Mail&quot; input some e-mail address you have access to. And click on the green button &quot;Send invitation&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>E-mail invitation will be sent to entered e-mail address.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="18" name="Register as teacher - TO DO">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of registration of teacher&#39;s account.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Registration should be successful.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
 	<estimated_exec_duration></estimated_exec_duration>
 	<status>1</status>
 	<is_open>1</is_open>
