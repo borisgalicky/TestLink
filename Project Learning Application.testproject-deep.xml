@@ -328,7 +328,7 @@ Creating of category with blank title will not be possible.</p>
 
 <step>
 	<step_number><![CDATA[9]]></step_number>
-	<actions><![CDATA[<p>Delete entered text and enter more than 255 characters into the field.</p>
+	<actions><![CDATA[<p>Delete entered text and enter more than 255 characters into the field and click on the &quot;Save&quot; button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Warning message &quot;There was some problem with database&quot; will appear.</p>
 ]]></expectedresults>
@@ -509,34 +509,8 @@ Check if creating of tests with simillar titles will not be permitted.</p>
 </step>
 </steps>
 </testcase>
-
-<testcase internalid="138" name="Enable test - Finish">
-	<node_order><![CDATA[3]]></node_order>
-	<externalid><![CDATA[18]]></externalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check functionality of&nbsp; allowing the test.</p>
-]]></summary>
-	<preconditions><![CDATA[<p>Test will be allowed and available for students.</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[2]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-<steps>
-<step>
-	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Test will be allowed for students.<strong><span style="color:#e74c3c">{and something front-end effect}</span></strong></p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-</steps>
-</testcase>
 <testsuite id="118" name="Create question" >
-<node_order><![CDATA[4]]></node_order>
+<node_order><![CDATA[3]]></node_order>
 <details><![CDATA[]]></details> 
 
 <testcase internalid="71" name="Add new question">
@@ -559,7 +533,7 @@ Check functonality of checking blank input fields.</p>
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Click on the blue button &quot;Add new question&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Dialog window with &quot;Add new quesiton&quot; title will appear.</p>
+	<expectedresults><![CDATA[<p>Dialog window with &quot;Add new question&quot; title will appear.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -691,9 +665,61 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 	<status>1</status>
 	<is_open>1</is_open>
 	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the blue button &quot;Choose from existing questions&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Dialog window &quot;Choose from existing questions&quot; will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
-</testsuite></testsuite><testsuite id="91" name="Students" >
+</testsuite>
+<testcase internalid="138" name="Enable test - Finish">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of&nbsp; allowing the test.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Test will be allowed and available for students.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;My tests&quot; item on left panel.<br />
+<em>If you are currently on &quot;My tests&quot; page, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;My tests&quot; screen will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Test will be allowed for students.<strong><span style="color:#e74c3c">{and something front-end effect}</span></strong></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="91" name="Students" >
 <node_order><![CDATA[5]]></node_order>
 <details><![CDATA[]]></details> 
 
