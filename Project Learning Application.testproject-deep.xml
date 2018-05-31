@@ -681,7 +681,7 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 For example &quot;Java test&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button.<br />
-There&#39;s only one question - Sample question.</p>
+There are 3 questions.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -720,14 +720,14 @@ For example &quot;Big HTML test&quot;.</p>
 For example &quot;Java test&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button.<br />
-There&#39;s only one question - Sample question.</p>
+There are 3 questions.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[7]]></step_number>
-	<actions><![CDATA[<p>Click on the green button &quot;Add&quot;.</p>
+	<actions><![CDATA[<p>Click on the green button &quot;Add&quot; for question &quot;JavaFX is used for creating of...?&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Dialog window will disappear and added question will be displayed in the list of questions below.</p>
 ]]></expectedresults>
@@ -977,43 +977,25 @@ Boris Galick&yacute; and Erik Ruszinka.</p>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Remove&quot; button to remove student Erik Ruszinka.</p>
+	<actions><![CDATA[<p>Click on &quot;Erik Ruszinka&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will appear and ask &quot;Are you sure you want to remove this student?&quot;.</p>
+	<expectedresults><![CDATA[<p>You will be redirected to profile page.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Choose &quot;Cancel&quot; option inside of alert window.</p>
+	<actions><![CDATA[<p>Click on the green button &quot;Archive&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will disappear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Remove&quot; button to remove student Erik Ruszinka.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will appear and ask &quot;Are you sure you want to remove this student?&quot;.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Choose &quot;OK&quot; option inside of alert window.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will disappear and student Erik Ruszinka will be removed from table of displayed students.</p>
+	<expectedresults><![CDATA[<p>&quot;Students&quot; page will appear. Red window &quot;Student archived&quot; will appear above.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 </steps>
 </testcase>
 
-<testcase internalid="110" name="Show student details - Finish">
+<testcase internalid="110" name="Show student details">
 	<node_order><![CDATA[1002]]></node_order>
 	<externalid><![CDATA[12]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -1045,7 +1027,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<actions><![CDATA[<p>Click on &quot;Boris Galick&yacute;&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Profile page of student &quot;Boris Galick&yacute;&quot; will be displayed.<br />
-<span style="color:#e74c3c"><strong>{Description of profile page}</strong></span></p>
+Graphs of student&#39;s result will be displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1323,8 +1305,181 @@ There will be only one student - Boris Galick&yacute;.</p>
 </step>
 </steps>
 </testcase>
-<testsuite id="301" name="Take test" >
-<node_order><![CDATA[1]]></node_order>
+<testsuite id="349" name="User options" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="345" name="Marks score">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[54]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Checking funcionality of showning marks score</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Marks score window will be shown</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on right top dropdown button marked as &quot;Johny Walker&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of options will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Marks score&quot; option from list.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Marks score window will be shown.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="333" name="Change password">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[55]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Checking funcionality of changing password</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Password will be changed only if it&#39;s longer than 4 characters, entered password in field &quot;NEW password&quot; will matched with field &quot;NEW password again&quot; and &quot;OLD password&quot; field will matched with old password</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on right top dropdown button marked as &quot;Johny Walker&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of options will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Change password&quot; option.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>New window with three fields &quot;Here insert NEW password&quot;, &quot;Here insert NEW password again&quot; and &quot;Here insert OLD password&quot; will open.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;4321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;4321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;4321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;4321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;12345&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;64321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;64321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Leave any of fields blank</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password cannot be changed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert NEW password&quot; insert &quot;54321&quot;</li>
+	<li>In field &quot;Here insert OLD password&quot; insert &quot;1234&quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<p>Password will succesfully changed to &quot;54321&quot; and window will be closed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="301" name="Take test" >
+<node_order><![CDATA[3]]></node_order>
 <details><![CDATA[]]></details> 
 
 <testcase internalid="277" name="Choose test">
