@@ -1052,7 +1052,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 </steps>
 </testcase>
 
-<testcase internalid="305" name="Change password - TO DO">
+<testcase internalid="305" name="Change password - Finish">
 	<node_order><![CDATA[1003]]></node_order>
 	<externalid><![CDATA[58]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -1066,7 +1066,38 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<status>1</status>
 	<is_open>1</is_open>
 	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Students&quot; item on left panel.<br />
+<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Students&quot; page.<br />
+There will be displayed list of all&nbsp;students.<br />
+There will be only one student - Boris Galick&yacute;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
 
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Boris Galick&yacute;&quot;.<br />
+<em>If you have already&nbsp;clicked on &quot;Boris Galick&yacute;&quot; student, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Profile page of student &quot;Boris Galick&yacute;&quot; will be displayed.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the button &quot;Change password&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p><span style="color:#e74c3c"><strong>{something will happen}</strong></span></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
 </testcase>
 </testsuite><testsuite id="128" name="Teachers" >
 <node_order><![CDATA[6]]></node_order>
