@@ -736,8 +736,80 @@ There&#39;s only one question - Sample question.</p>
 </steps>
 </testcase>
 </testsuite>
-<testcase internalid="138" name="Enable test - Finish">
+<testcase internalid="303" name="Activate test">
 	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[57]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of activating of test.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Test will be activated and it will be not possible to editit anymore.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;My tests&quot; item on left panel.<br />
+<em>If you are currently on &quot;My tests&quot; page, you may skip this step.</em></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;My tests&quot; screen will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Move mouse cursor on blue&nbsp;&quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Black message box &quot;After activating the test, you will not&nbsp;be able to edit it anymore&quot; will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on cancel button inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will disappear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on OK button inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Activate&quot; button will change to green bordered &quot;Enable&quot; button and edit option will disappear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="138" name="Enable/Hide test">
+	<node_order><![CDATA[5]]></node_order>
 	<externalid><![CDATA[18]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of&nbsp; allowing the test.</p>
@@ -763,9 +835,18 @@ There&#39;s only one question - Sample question.</p>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
+	<actions><![CDATA[<p>Click on green bordered&nbsp;&quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Test will be allowed for students.<strong><span style="color:#e74c3c">{and something front-end effect}</span></strong></p>
+	<expectedresults><![CDATA[<p>Test will be allowed for students,&nbsp;button &quot;Enable&quot; will change to &quot;Hide&quot; and test box will be green bordered.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on yellow bordered &quot;Hide&quot; button inside of &quot;Exercise test&quot; box.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Test will be hidden for students,&nbsp;button &quot;Hide&quot; will change back to &quot;Enable&quot; and green border will disappear.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -970,6 +1051,23 @@ There will be only one student - Boris Galick&yacute;.</p>
 </step>
 </steps>
 </testcase>
+
+<testcase internalid="305" name="Change password - TO DO">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[58]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of changing a password.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Password will be successfully changed - new password will be generated.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
 </testsuite><testsuite id="128" name="Teachers" >
 <node_order><![CDATA[6]]></node_order>
 <details><![CDATA[]]></details> 
@@ -1079,6 +1177,23 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<active>1</active>
 
 </testcase>
+
+<testcase internalid="312" name="Remove teacher - TO DO">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[59]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of removing a teacher.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Teacher will be successfully removed.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
 </testsuite></testsuite><testsuite id="15" name="Desktop Application" >
 <node_order><![CDATA[2]]></node_order>
 <details><![CDATA[]]></details> 
@@ -1147,9 +1262,9 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<node_order><![CDATA[1]]></node_order>
 	<externalid><![CDATA[53]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Checking funcionality of show user profile</p>
+	<summary><![CDATA[<p>Checking funcionality of showing user profile.</p>
 ]]></summary>
-	<preconditions><![CDATA[<p>User profile will be shown properly</p>
+	<preconditions><![CDATA[<p>User profile will be shown properly.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
@@ -1185,9 +1300,9 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<node_order><![CDATA[2]]></node_order>
 	<externalid><![CDATA[51]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check funcionality of choosing a test</p>
+	<summary><![CDATA[<p>Check funcionality of choosing a test.</p>
 ]]></summary>
-	<preconditions><![CDATA[<p>After choose test, you will be redirected to window with selected test</p>
+	<preconditions><![CDATA[<p>After choosing of&nbsp;test, you will be redirected to window with selected test.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
@@ -1238,9 +1353,9 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<node_order><![CDATA[3]]></node_order>
 	<externalid><![CDATA[52]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check funcionality of filling the test</p>
+	<summary><![CDATA[<p>Check funcionality of filling the test.</p>
 ]]></summary>
-	<preconditions><![CDATA[<p>Test will be finished with all answered questions only</p>
+	<preconditions><![CDATA[<p>Test will be finished only if one answer for each question has been selected.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
@@ -1328,9 +1443,9 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<node_order><![CDATA[4]]></node_order>
 	<externalid><![CDATA[56]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Checking funcionality of log out user</p>
+	<summary><![CDATA[<p>Checking funcionality of logging out a user.</p>
 ]]></summary>
-	<preconditions><![CDATA[<p>User will be logged out and application will be closed</p>
+	<preconditions><![CDATA[<p>User will be logged out and application will be closed.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
