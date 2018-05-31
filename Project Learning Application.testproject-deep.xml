@@ -709,7 +709,7 @@ There are 3 questions.</p>
 	<actions><![CDATA[<p>Click on the dropdown button and select test you want to import question from.<br />
 For example &quot;Big HTML test&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>No question will appear below.</p>
+	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button. There are 3 questions listed.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -719,8 +719,7 @@ For example &quot;Big HTML test&quot;.</p>
 	<actions><![CDATA[<p>Click on the dropdown button and select test you want to import question from.<br />
 For example &quot;Java test&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button.<br />
-There are 3 questions.</p>
+	<expectedresults><![CDATA[<p>List of questions will appear under dropdown button. There are 3 questions listed</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
