@@ -734,6 +734,23 @@ For example &quot;Java test&quot;.</p>
 </step>
 </steps>
 </testcase>
+
+<testcase internalid="355" name="Delete question - TO DO">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[63]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of deleting question.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Question will be removed correctly.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
 </testsuite>
 <testcase internalid="303" name="Activate test">
 	<node_order><![CDATA[4]]></node_order>
@@ -1080,6 +1097,21 @@ There will be only one student - Boris Galick&yacute;.</p>
 </step>
 </steps>
 </testcase>
+
+<testcase internalid="353" name="Archive student - TO DO">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[62]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
 </testsuite><testsuite id="128" name="Teachers" >
 <node_order><![CDATA[6]]></node_order>
 <details><![CDATA[]]></details> 
@@ -1116,7 +1148,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of inviting another teachers.</p>
 ]]></summary>
-	<preconditions><![CDATA[<p>Teacher will get invitation by e-mail.</p>
+	<preconditions><![CDATA[<p>Teacher will be registered and he will get his login data via e-mail.</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[2]]></importance>
@@ -1164,7 +1196,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 
 <step>
 	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Insert into &quot;E-Mail&quot; input some e-mail address you have access to. And click on the green button &quot;Send invitation&quot;.</p>
+	<actions><![CDATA[<p>Fill inputs &quot;First Name&quot; and &quot;Last Name&quot;&nbsp;with some values and insert into &quot;E-Mail&quot; input some e-mail address you have access to. And click on the green button &quot;Send invitation&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>E-mail invitation will be sent to entered e-mail address.</p>
 ]]></expectedresults>
@@ -1173,24 +1205,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 </steps>
 </testcase>
 
-<testcase internalid="18" name="Register as teacher - TO DO">
-	<node_order><![CDATA[2]]></node_order>
-	<externalid><![CDATA[2]]></externalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check functionality of registration of teacher&#39;s account.</p>
-]]></summary>
-	<preconditions><![CDATA[<p>Registration should be successful.</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-
-</testcase>
-
-<testcase internalid="312" name="Remove teacher - TO DO">
+<testcase internalid="312" name="Archive/delete teacher - TO DO">
 	<node_order><![CDATA[3]]></node_order>
 	<externalid><![CDATA[59]]></externalid>
 	<version><![CDATA[1]]></version>
