@@ -1047,7 +1047,7 @@ Answer D: Database scripts</p>
 <details><![CDATA[]]></details> 
 
 <testcase internalid="92" name="Show students">
-	<node_order><![CDATA[1000]]></node_order>
+	<node_order><![CDATA[0]]></node_order>
 	<externalid><![CDATA[10]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying of all students.</p>
@@ -1138,55 +1138,8 @@ Choose &quot;3.N&quot; choice.</p>
 </steps>
 </testcase>
 
-<testcase internalid="103" name="Remove student">
-	<node_order><![CDATA[1001]]></node_order>
-	<externalid><![CDATA[11]]></externalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check functionality of removing students.</p>
-]]></summary>
-	<preconditions><![CDATA[<p>Student will be successfully removed from students list.</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[2]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-<steps>
-<step>
-	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Students&quot; item on left panel.<br />
-<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
-]]></actions>
-	<expectedresults><![CDATA[<p>You will be redirected to &quot;Students&quot; page.<br />
-There will be displayed list of all (two) students.<br />
-Boris Galick&yacute; and Erik Ruszinka.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Erik Ruszinka&quot;.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>You will be redirected to profile page.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Click on the green button &quot;Archive&quot;.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Students&quot; page will appear. Red window &quot;Student archived&quot; will appear above.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-</steps>
-</testcase>
-
 <testcase internalid="110" name="Show student details">
-	<node_order><![CDATA[1002]]></node_order>
+	<node_order><![CDATA[1]]></node_order>
 	<externalid><![CDATA[12]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying of student details.</p>
@@ -1217,7 +1170,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 	<actions><![CDATA[<p>Click on &quot;Boris Galick&yacute;&quot;.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Profile page of student &quot;Boris Galick&yacute;&quot; will be displayed.<br />
-Graphs of student&#39;s result will be displayed below.</p>
+Graphs of student&#39;s result may&nbsp;be displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1225,7 +1178,7 @@ Graphs of student&#39;s result will be displayed below.</p>
 </testcase>
 
 <testcase internalid="305" name="Change password">
-	<node_order><![CDATA[1003]]></node_order>
+	<node_order><![CDATA[3]]></node_order>
 	<externalid><![CDATA[58]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of changing a password.</p>
@@ -1273,7 +1226,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 </testcase>
 
 <testcase internalid="353" name="Archive student">
-	<node_order><![CDATA[1004]]></node_order>
+	<node_order><![CDATA[4]]></node_order>
 	<externalid><![CDATA[62]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
@@ -1327,15 +1280,27 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
+	<actions><![CDATA[<p>Click on &quot;Log out&quot; option in top right corner of the screen.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. List of teachers is displayed below.</p>
+	<expectedresults><![CDATA[<p>You will be logged out and redirected to login page.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Login as &quot;Admin Teacher&quot;.<br />
+Enter &quot;admin.teacher@gmail.com&quot; into &quot;E-mail&quot; input.<br />
+Enter &quot;oSDtxu&quot; into &quot;Password input&quot;.<br />
+Click on the &quot;Login&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be succesfuly logged in.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;q&quot; character into the search input.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>All of teachers will disappear.</p>
@@ -1344,7 +1309,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 </step>
 
 <step>
-	<step_number><![CDATA[3]]></step_number>
+	<step_number><![CDATA[4]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;r&quot; character into the search input.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>John Doe will disappear.</p>
@@ -1353,7 +1318,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 </step>
 
 <step>
-	<step_number><![CDATA[4]]></step_number>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;t&quot; character into the search input.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Only First Teacher and Second Teacher will be displayed.</p>
@@ -1362,10 +1327,19 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 </step>
 
 <step>
-	<step_number><![CDATA[5]]></step_number>
+	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Enter &quot;se&quot;&nbsp;into the search input.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Only Second Teacher will be displayed.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. List of teachers is displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1452,27 +1426,6 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Log out&quot; option in top right corner of the screen.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>You will be logged out and redirected to login page.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Login as &quot;Roland Onofrej&quot;.<br />
-Enter &quot;admin.teacher@gmail.com&quot; into &quot;E-mail&quot; input.<br />
-Enter &quot;5bhFlz&quot; into &quot;Password input&quot;.<br />
-Click on the &quot;Login&quot; button.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>You will be successfully logged in.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. List of teacher will be displayed below.</p>
@@ -1481,10 +1434,28 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[4]]></step_number>
+	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Click on green button &quot;Archive&quot; which belongs to First Teacher.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>&quot;First Teacher&quot; will disappear from the page and red box message &quot;Teacher archived&quot; will appear above.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on red button &quot;Delete&quot; which belongs to Second&nbsp;Teacher.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Warning, following action is irreversible. Continue?&quot; will appear above.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on cancel option inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will disappear and no changes will be made.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1500,7 +1471,42 @@ Click on the &quot;Login&quot; button.</p>
 
 <step>
 	<step_number><![CDATA[6]]></step_number>
-	<actions><![CDATA[<p>Click on cancel option inside of alert window.</p>
+	<actions><![CDATA[<p>Click on &quot;OK&quot; option inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will disappear. Red box message &quot;Teacher deleted&quot; will be displayed in the top of the screen and Second Teacher will be missing on the list of teachers.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="464" name="Give admin status - Finish">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[68]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of promotion of another tecahers.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Promoted teacher will be admin.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the blue button &quot;Give admin status&quot; for teacher &quot;john Doe&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Do you really want o give this teacher admin rights? After doing so he will also be able to list, invite or delete other teachers&quot; will appear in&nbsp;top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on the cancel option inside of alert window.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Alert window will disappear and no changes will be made.</p>
 ]]></expectedresults>
@@ -1508,19 +1514,19 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
-	<actions><![CDATA[<p>Click on red button &quot;Delete&quot; which belongs to Second&nbsp;Teacher.</p>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the blue button &quot;Give admin status&quot; for teacher &quot;john Doe&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Alert window &quot;Warning, following action is irreversible. Continue?&quot; will appear above.</p>
+	<expectedresults><![CDATA[<p>Alert window &quot;Do you really want to give this teacher admin rights? After this action, he will be also able to list, invite, delete or promote another teachers.&quot; will appear in&nbsp;top of the screen.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
-	<step_number><![CDATA[8]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;OK&quot; option inside of alert window.</p>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on the &quot;OK&quot;&nbsp;option inside of alert window.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will disappear. Red box message &quot;Teacher deleted&quot; will be displayed in the top of the screen and Second Teacher will be missing on the list of teachers.</p>
+	<expectedresults><![CDATA[<p>Alert window will disappear and&nbsp;red box message &quot;Teacher updated to admin&quot; will appear above.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
