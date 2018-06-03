@@ -126,7 +126,7 @@ Fill &quot;I agree with Terms and condtitions and GDPR&quot; checkbox.</p>
 
 <testcase internalid="20" name="Login">
 	<node_order><![CDATA[1]]></node_order>
-	<externalid><![CDATA[2]]></externalid>
+	<externalid><![CDATA[3]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check login functionality with:</p>
 
@@ -204,7 +204,7 @@ Fill &quot;I agree with Terms and condtitions and GDPR&quot; checkbox.</p>
 
 <testcase internalid="136" name="Approve student">
 	<node_order><![CDATA[2]]></node_order>
-	<externalid><![CDATA[3]]></externalid>
+	<externalid><![CDATA[17]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of approving students.</p>
 ]]></summary>
@@ -705,7 +705,7 @@ Answers: Answers - hover effect will show all answers (A. First, B. Second,C. Th
 
 <testcase internalid="119" name="Choose from existing questions">
 	<node_order><![CDATA[1]]></node_order>
-	<externalid><![CDATA[9]]></externalid>
+	<externalid><![CDATA[13]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check if it&#39;s possible to add foreign question into the test.</p>
 ]]></summary>
@@ -789,7 +789,7 @@ For example &quot;Java test&quot;.</p>
 
 <testcase internalid="357" name="Edit question">
 	<node_order><![CDATA[2]]></node_order>
-	<externalid><![CDATA[10]]></externalid>
+	<externalid><![CDATA[64]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of editing the question.</p>
 ]]></summary>
@@ -875,7 +875,7 @@ Answer D: Database scripts</p>
 
 <testcase internalid="355" name="Delete question">
 	<node_order><![CDATA[3]]></node_order>
-	<externalid><![CDATA[11]]></externalid>
+	<externalid><![CDATA[63]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of deleting question.</p>
 ]]></summary>
@@ -928,7 +928,7 @@ Answer D: Database scripts</p>
 </testsuite>
 <testcase internalid="303" name="Activate test">
 	<node_order><![CDATA[4]]></node_order>
-	<externalid><![CDATA[12]]></externalid>
+	<externalid><![CDATA[57]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of activating of test.</p>
 ]]></summary>
@@ -1000,7 +1000,7 @@ Answer D: Database scripts</p>
 
 <testcase internalid="138" name="Enable/Hide test">
 	<node_order><![CDATA[5]]></node_order>
-	<externalid><![CDATA[13]]></externalid>
+	<externalid><![CDATA[18]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of&nbsp; allowing the test.</p>
 ]]></summary>
@@ -1048,7 +1048,7 @@ Answer D: Database scripts</p>
 
 <testcase internalid="92" name="Show students">
 	<node_order><![CDATA[1000]]></node_order>
-	<externalid><![CDATA[14]]></externalid>
+	<externalid><![CDATA[10]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying of all students.</p>
 ]]></summary>
@@ -1140,7 +1140,7 @@ Choose &quot;3.N&quot; choice.</p>
 
 <testcase internalid="103" name="Remove student">
 	<node_order><![CDATA[1001]]></node_order>
-	<externalid><![CDATA[15]]></externalid>
+	<externalid><![CDATA[11]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of removing students.</p>
 ]]></summary>
@@ -1187,7 +1187,7 @@ Boris Galick&yacute; and Erik Ruszinka.</p>
 
 <testcase internalid="110" name="Show student details">
 	<node_order><![CDATA[1002]]></node_order>
-	<externalid><![CDATA[16]]></externalid>
+	<externalid><![CDATA[12]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying of student details.</p>
 ]]></summary>
@@ -1226,7 +1226,7 @@ Graphs of student&#39;s result will be displayed below.</p>
 
 <testcase internalid="305" name="Change password">
 	<node_order><![CDATA[1003]]></node_order>
-	<externalid><![CDATA[17]]></externalid>
+	<externalid><![CDATA[58]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of changing a password.</p>
 ]]></summary>
@@ -1274,7 +1274,7 @@ There will be only one student - Boris Galick&yacute;.</p>
 
 <testcase internalid="353" name="Archive student">
 	<node_order><![CDATA[1004]]></node_order>
-	<externalid><![CDATA[18]]></externalid>
+	<externalid><![CDATA[62]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[]]></summary>
 	<preconditions><![CDATA[]]></preconditions>
@@ -1312,7 +1312,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 
 <testcase internalid="129" name="Show teachers">
 	<node_order><![CDATA[0]]></node_order>
-	<externalid><![CDATA[19]]></externalid>
+	<externalid><![CDATA[15]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of displaying all of teachers.</p>
 ]]></summary>
@@ -1329,7 +1329,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 	<step_number><![CDATA[1]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are four&nbsp;teachers in the screen. Roland Onofrej,&nbsp;John Doe, First Teacher and Second Teacher.</p>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. List of teachers is displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1374,7 +1374,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 
 <testcase internalid="131" name="Invite teacher">
 	<node_order><![CDATA[1]]></node_order>
-	<externalid><![CDATA[20]]></externalid>
+	<externalid><![CDATA[16]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of inviting another teachers.</p>
 ]]></summary>
@@ -1392,7 +1392,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.<br />
 <em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are four&nbsp;teachers in the screen. Roland Onofrej,&nbsp;John Doe, First Teacher and Second Teacher.</p>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. Teachers list is&nbsp;displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1437,7 +1437,7 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 
 <testcase internalid="312" name="Archive and delete teacher">
 	<node_order><![CDATA[3]]></node_order>
-	<externalid><![CDATA[21]]></externalid>
+	<externalid><![CDATA[59]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of removing and archiving a teacher.</p>
 ]]></summary>
@@ -1462,10 +1462,9 @@ Then click on &quot;Boris Galick&yacute;&quot;.<br />
 <step>
 	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Login as &quot;Roland Onofrej&quot;.<br />
-Enter &quot;roland.onofrej@akademiasovy.sk&quot; into &quot;E-mail&quot; input.<br />
-Enter &quot;XIP3Lq&quot; into &quot;Password input&quot;.<br />
-Click on the &quot;Login&quot; button.<br />
-&nbsp;</p>
+Enter &quot;admin.teacher@gmail.com&quot; into &quot;E-mail&quot; input.<br />
+Enter &quot;5bhFlz&quot; into &quot;Password input&quot;.<br />
+Click on the &quot;Login&quot; button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>You will be successfully logged in.</p>
 ]]></expectedresults>
@@ -1476,7 +1475,7 @@ Click on the &quot;Login&quot; button.<br />
 	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are four&nbsp;teachers in the screen. Roland Onofrej,&nbsp;John Doe, First Teacher and Second Teacher.</p>
+	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. List of teacher will be displayed below.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
@@ -1525,22 +1524,12 @@ Click on the &quot;Login&quot; button.<br />
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
-
-<step>
-	<step_number><![CDATA[9]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Teachers&quot; item on left panel.<br />
-<em>If you are currently on &quot;Students&quot; page, you may skip this step.</em></p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Teachers&quot; page will appear. There are four&nbsp;teachers in the screen. Roland Onofrej,&nbsp;John Doe, First Teacher and Second Teacher.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
 </steps>
 </testcase>
 </testsuite>
 <testcase internalid="374" name="Logout">
 	<node_order><![CDATA[7]]></node_order>
-	<externalid><![CDATA[22]]></externalid>
+	<externalid><![CDATA[65]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check logout functionality.</p>
 ]]></summary>
