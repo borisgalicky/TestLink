@@ -280,6 +280,68 @@ Fill &quot;I agree with Terms and condtitions and GDPR&quot; checkbox.</p>
 </step>
 </steps>
 </testcase>
+
+<testcase internalid="303" name="Activate test">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[57]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check functionality of activating of test.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Test will be activated and it will be not possible to editit anymore.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Move mouse cursor on blue&nbsp;&quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Black message box &quot;After activating the test, you will not&nbsp;be able to edit it anymore&quot; will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on cancel button inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window will disappear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on OK button inside of alert window.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&quot;Activate&quot; button will change to green bordered &quot;Enable&quot; button and edit option will disappear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
 <testsuite id="56" name="Create test" >
 <node_order><![CDATA[4]]></node_order>
 <details><![CDATA[]]></details> 
@@ -562,7 +624,7 @@ Check if creating of tests with simillar titles will not be permitted.</p>
 </steps>
 </testcase>
 <testsuite id="118" name="Create question" >
-<node_order><![CDATA[3]]></node_order>
+<node_order><![CDATA[5]]></node_order>
 <details><![CDATA[]]></details> 
 
 <testcase internalid="71" name="Add new question">
@@ -925,81 +987,9 @@ Answer D: Database scripts</p>
 </step>
 </steps>
 </testcase>
-</testsuite>
-<testcase internalid="303" name="Activate test">
-	<node_order><![CDATA[4]]></node_order>
-	<externalid><![CDATA[57]]></externalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Check functionality of activating of test.</p>
-]]></summary>
-	<preconditions><![CDATA[<p>Test will be activated and it will be not possible to editit anymore.</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[2]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-<steps>
-<step>
-	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;My tests&quot; item on left panel.<br />
-<em>If you are currently on &quot;My tests&quot; page, you may skip this step.</em></p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&quot;My tests&quot; screen will appear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Move mouse cursor on blue&nbsp;&quot;Activate&quot; button.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Black message box &quot;After activating the test, you will not&nbsp;be able to edit it anymore&quot; will appear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on cancel button inside of alert window.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Alert window will disappear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Activate&quot; button.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Alert window &quot;Are you sure you want to activate this test? After activating the test you will not be able to edit the test in any way&quot; will appear in the top of the screen.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[6]]></step_number>
-	<actions><![CDATA[<p>Click on OK button inside of alert window.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&quot;Activate&quot; button will change to green bordered &quot;Enable&quot; button and edit option will disappear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-</steps>
-</testcase>
-
+</testsuite></testsuite>
 <testcase internalid="138" name="Enable/Hide test">
-	<node_order><![CDATA[5]]></node_order>
+	<node_order><![CDATA[4]]></node_order>
 	<externalid><![CDATA[18]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check functionality of&nbsp; allowing the test.</p>
@@ -1015,16 +1005,6 @@ Answer D: Database scripts</p>
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;My tests&quot; item on left panel.<br />
-<em>If you are currently on &quot;My tests&quot; page, you may skip this step.</em></p>
-]]></actions>
-	<expectedresults><![CDATA[<p>&quot;My tests&quot; screen will appear.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Click on green bordered&nbsp;&quot;Enable&quot; button&nbsp;inside of&nbsp; &quot;Exercise test&quot; box.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Test will be allowed for students,&nbsp;button &quot;Enable&quot; will change to &quot;Hide&quot; and test box will be green bordered.</p>
@@ -1033,7 +1013,7 @@ Answer D: Database scripts</p>
 </step>
 
 <step>
-	<step_number><![CDATA[3]]></step_number>
+	<step_number><![CDATA[2]]></step_number>
 	<actions><![CDATA[<p>Click on yellow bordered &quot;Hide&quot; button inside of &quot;Exercise test&quot; box.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Test will be hidden for students,&nbsp;button &quot;Hide&quot; will change back to &quot;Enable&quot; and green border will disappear.</p>
@@ -1042,7 +1022,7 @@ Answer D: Database scripts</p>
 </step>
 </steps>
 </testcase>
-</testsuite><testsuite id="91" name="Students" >
+<testsuite id="91" name="Students" >
 <node_order><![CDATA[5]]></node_order>
 <details><![CDATA[]]></details> 
 
@@ -1480,7 +1460,7 @@ Click on the &quot;Login&quot; button.</p>
 </steps>
 </testcase>
 
-<testcase internalid="464" name="Give admin status - Finish">
+<testcase internalid="464" name="Give admin status">
 	<node_order><![CDATA[4]]></node_order>
 	<externalid><![CDATA[68]]></externalid>
 	<version><![CDATA[1]]></version>
@@ -1886,9 +1866,9 @@ Click on the &quot;Login&quot; button.</p>
 </steps>
 </testcase>
 
-<testcase internalid="283" name="Test filling - Finish">
+<testcase internalid="474" name="Test filling">
 	<node_order><![CDATA[3]]></node_order>
-	<externalid><![CDATA[52]]></externalid>
+	<externalid><![CDATA[60]]></externalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Check funcionality of filling the test.</p>
 ]]></summary>
@@ -1912,6 +1892,33 @@ Click on the &quot;Login&quot; button.</p>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Final&quot; tab on left top corner.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will see <span style="color:#e74c3c">Empty </span>as answer for each question.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Finish&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>In &quot;Test result&quot; will be shown &quot;Error&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Question 1&quot; in left top corner.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &quot;Question 1&quot; will appear.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>The answered question in left top corner will be changed from red color to green and you will be redirected to &quot;Question 2&quot;.</p>
@@ -1920,7 +1927,7 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[3]]></step_number>
+	<step_number><![CDATA[6]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Question 1&quot; tab&nbsp;on left top corner.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>The &quot;Question 1&quot; will appear with blue outline.</p>
@@ -1929,25 +1936,25 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Italic text&quot; answer.</p>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click on any other option or &quot;Submit answer button&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Answer will be changed from &quot;Bold text&quot; to &quot;Italic text&quot;.</p>
+	<expectedresults><![CDATA[<p>You are not able to click on another option or &quot;Submit answer&quot;.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
-	<step_number><![CDATA[5]]></step_number>
-	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button</p>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Question 2&quot; tab on left top corner.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 2&quot;</p>
+	<expectedresults><![CDATA[<p>The &quot;Question 2&quot; will appear.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
-	<step_number><![CDATA[6]]></step_number>
+	<step_number><![CDATA[9]]></step_number>
 	<actions><![CDATA[<p>Click on &quot;Submit answer&quot; button</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>You will not be not redirected to &quot;Question 3&quot;. There will be made no changes on the screen.</p>
@@ -1956,8 +1963,8 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[7]]></step_number>
-	<actions><![CDATA[<p>Click on any answer and click on&nbsp;&quot;Submit answer&quot; button.</p>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;HTML5&quot; option and after that click on &quot;Submit answer&quot; button.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 3&quot;.</p>
 ]]></expectedresults>
@@ -1965,11 +1972,49 @@ Click on the &quot;Login&quot; button.</p>
 </step>
 
 <step>
-	<step_number><![CDATA[8]]></step_number>
-	<actions><![CDATA[<p>Select any answer and click on&nbsp;&quot;Submit answer&quot; button.</p>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Hypertext markup language&quot; option and after that click on&nbsp;&quot;Submit answer&quot; button.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Test will be completed and closed.<br />
-<strong><span style="color:#e74c3c">{something will appear}</span></strong></p>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 4&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Special character&quot; option and after that click on&nbsp;&quot;Submit answer&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Question 5&quot;.<br />
+&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;private int i=1&quot; option and after that click on &quot;Submit answer&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will be redirected to &quot;Final&quot; page.</p>
+
+<p>All correct answers are highlithed by <span style="color:#27ae60">green color </span>and incorrect answers are highlithed by <span style="color:#e74c3c">red color </span>(answer &quot;Special character&quot;).</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Finish&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>You will see your final score: 88.89% in {<em>elapsed time</em>}.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Exit test&quot; button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Test and another application windows will be closed.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
